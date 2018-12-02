@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <title>На input и textarea</title>
+    <style>
+       input, textarea, button{
+           display: block;
+           position: relative;
+           margin: 1.5em
+       }
 
-</body>
+    </style>
+</head>
+
+    <body>
+         <form action="" type="GET">
+             <input type="text" name="text_1" placeholder="Плэйсхолдер">
+             <input type="text" name="text_2" value="Value">
+             <input type="text" name="text_3" placeholder="disabled" disabled>
+             <input type="password" name="pass" title="Введите пароль" value="123456    ">
+             <textarea placeholder="Введите текст"></textarea>
+             <input type="submit" value="Кнопка через тег input">
+             <button type="submit">Кнопка через тег button</button>
+         </form>
+
+    </body>
 </html>
