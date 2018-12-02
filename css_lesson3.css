@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+}
+ol {
+    color: red;
+}
+
+i {
+    color: blue;
+    font-weight: bold;
+}
+h2 {
+    color: green;
+}
