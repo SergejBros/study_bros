@@ -1,16 +1,19 @@
 <?php
 
+var_dump($_POST);
+$errors = [];
+if(isset($_POST)){
 
-$a = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+    if($_POST['name']){
+        $errors['name'] = 'Введите имя';
+    }
+    if($_POST['email']){
+        $errors['email'] = 'Введите емейл';
+    }
+    if($_POST['password']){
+        $errors['password'] = 'Введите пароль';
+    }
+}
 
-$a[] = "dm"; // добавление элемента в массив
 
-echo $a[2]; // вывод второго элемента
-echo '<br>';
-$a[2] = 'среда'; // замена 2-го элемента
-echo $a[2];
-// var_export($a);
-
-
-?>
-
+include 'form.html.php';
