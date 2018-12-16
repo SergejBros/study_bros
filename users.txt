@@ -1,1 +1,3 @@
 Сергей	sergej.bros@gmail.com	123456	1
+Вася	vasy@gmail.com	qwe123	0
+Андрей	andrej@gmail.com	qwerty	1
