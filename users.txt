@@ -1,1 +1,2 @@
 Сергей	sergej.bros@gmail.com	123456	1
+Сергей	sergej.bros@gmail.com	123456	0
