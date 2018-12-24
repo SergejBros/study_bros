@@ -6,7 +6,6 @@
  * Time: 17:19
  */
 
-class SmartForm extends Form
-{
+class SmartForm extends Form{
 
 }
